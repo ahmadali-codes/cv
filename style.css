@@ -1,3 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+
+
 *{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: all .2s linear;
+
+}
+
+:root{
+    --img_bg: #e9eca5;
+    --sky: #80bfd9;
+    --main-color: #2d8116;
+    --h2-color: #32a312;
+    --h3-color: #119e63;
+}
+
+#main-heading{
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-family: "Dancing Script", cursive;
+    font-size: 5.625rem;
+    color: var(--main-color);
+    margin-left: 2rem;
+    padding: 15px;
+}
+
+.top-container p{
+    font-size: 1.5rem;
+    color: #000;
+
+}
+
+.container{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.top-container{
+    background-color: var(--img_bg);
+    width: 100%;
+    height: 865px;
+    text-align: center;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.middle-container{
+    margin-top: 4rem;
+}
+
+.sub-heading{
+    font-family: 'Nunito', sans-serif;
+    color: #0a8138;
+    margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+p{
+    color: #444;
+}
+
+.bg_image{
+    position: absolute;
+    left: 19%;
+    bottom: 0;
+}
+
+.cloud{
+    position: relative;
+}
+
+hr{
+    height: 0;
+    width: 5%;
+    margin: 4rem auto;
+    border-top: 7px dotted #555;
+}
+
+.above-cloud{
+    left: 450px;
+    top: 150px;
+}
+
+.below-cloud{
+    right: 450px;
+    bottom: 100px;
+}
+
+.icon{
+    width: 150px;
+    height: 150px;
+
+}
+
+h3{
+    color: var(--h3-color);
+}
+
+.middle-container .about_info{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    line-height: 30px;
+}
+
+.skills .skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 50px auto;
+    padding: 30px 15px;
+}
+
+.skills .skill-row:hover{
+    scale: 1.2;
+    border: .1rem solid rgba(0, 0, 0, .7);
+}
+
+.skills .skill-row h3{
+    margin-bottom: 25px;
+}
+
+.skills .skill-row .mobile_icon{
+    float: left;
+    margin-right: 30px;
+}
+
+.skills .skill-row .cube_icon{
+    float: right;
+    margin-left: 30px;
+}
+
+.contact-me h3{
+    margin-top: 2rem;
+
+}
+
+.contact-me p{
+    margin-top: 2rem;
+}
+
+.contact-me .btn{
+    border: 2px solid var(--main-color);
+    padding: 15px 12px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-me .btn:hover{
+    background-color: #32a312;
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.bottom-container{
+    margin-top: 4rem;
+    background-color: rgba(10, 129, 56, 90%);
+    padding: 2rem 0;
+}
+
+.bottom-container .footer-link{
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    scale: 1;
+    display: inline-block;
+}
+
+
+.bottom-container .footer-link:hover{
+    color: #d1d1d1;
+    scale: 1.2;
+}
+
+.bottom-container p{
+    color: #fff;
+    margin-top: 32px;
+    font-weight: 800;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
